@@ -1,36 +1,27 @@
 # 🫀 AI Heart Failure Detection System
 
-## 📖 Project Overview
+## 📌 Project Overview
 
-The **AI Heart Failure Detection System** is a machine learning-based solution aimed at predicting the risk of heart failure in patients. Using either real-time sensor data or pre-collected datasets, this system trains a classification model to detect early signs of heart failure and alerts healthcare professionals or uploads results to the cloud for further analysis.
-
----
-
-## 🎯 Objective
-
-- Analyze sensor data or historical health records.
-- Train a classification model to predict heart failure risk.
-- Automatically send analysis results to doctors or to a cloud platform for remote monitoring.
+The **AI Heart Failure Detection System** is a machine learning-powered web application that predicts the likelihood of heart failure in patients based on clinical records. It is built using **Streamlit**, **Pandas**, **Scikit-learn**, and **Seaborn** for data visualization.
 
 ---
 
-## 🧠 AI Workflow
+## 🎯 Features
 
-1. **Data Collection:** ECG, heart rate, blood pressure, etc.
-2. **Preprocessing:** Data cleaning, normalization, encoding.
-3. **Model Training:** Use classifiers like Random Forest, SVM, or Neural Networks.
-4. **Prediction:** Determine risk of heart failure based on input data.
-5. **Communication:** Send results to doctors or sync with cloud storage.
+- 📊 **Heart Failure Prediction** using Random Forest Classifier  
+- 🧾 **Manual Input** or **CSV Upload** for predictions  
+- 📈 **Data Analysis Visualizations** (correlation matrix, class balance)  
+- ✅ **Model Metrics**: Accuracy, Precision, Recall, F1-score  
+- 💡 Educational disclaimer for responsible usage
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Language:** Python
-- **Libraries:** scikit-learn, TensorFlow, pandas, numpy
-- **Web API:** FastAPI or Flask
-- **Cloud Services:** Firebase, AWS, or GCP
-- **Visualization:** Streamlit
+- **Frontend**: Streamlit
+- **Backend/Model**: Scikit-learn (Random Forest)
+- **Data Handling**: Pandas
+- **Visualization**: Matplotlib, Seaborn
 
 ---
 
@@ -43,7 +34,7 @@ The **AI Heart Failure Detection System** is a machine learning-based solution a
 | Serum Creatinine    | Kidney function level                  |
 | High Blood Pressure | Binary indicator                       |
 | Smoking             | Binary indicator                       |
-| DEATH_EVENT         | Target variable (1 = died, 0 = alive)  |
+| Heart Failure        | Target variable (1 = at risk, 0 = not at risk)  |
 
 ---
 
@@ -51,13 +42,6 @@ The **AI Heart Failure Detection System** is a machine learning-based solution a
 
 - **Risk Status:** `At Risk` or `Not at Risk`
 - **Probability Score:** e.g., 85% likelihood of heart failure
-
----
-
-## 📡 Result Delivery
-
-- 📬 Sent directly to a doctor via email or dashboard
-- ☁️ Synced with cloud for monitoring by healthcare teams
 
 ---
 
@@ -72,14 +56,48 @@ The **AI Heart Failure Detection System** is a machine learning-based solution a
 
 ## 📁 Project Structure
 
-ai-heart-failure/
-├── data/ # Sample datasets
-├── models/ # Trained models
-├── app/ # API code using Flask or FastAPI
-├── dashboard/ # Visualization tools (e.g., Streamlit)
-├── notebooks/ # Jupyter notebooks for EDA and training
-├── README.md # This file
-└── requirements.txt # Python dependencies
+AI-Heart-Failure-Detector/
+│
+├── Home.py                   
+├── /Pages/heart_failure_prediction.py  
+├── /Pages/data_analysis
+├── Assets/background.jpg  
+├── requirements.txt         
+└── dataset.csv             
+
+---
+
+📍 App Navigation
+🏠 Home: App introduction and instructions
+
+📊 Heart Failure Prediction App:
+
+Manual patient form or CSV upload
+
+Get prediction results from ML model
+
+📈 Data Analysis:
+
+Data insights
+
+Correlation matrix
+
+Class distribution
+
+Model evaluation metrics
+
+---
+
+📞 Contact
+Name: Engineer Chard Odhiambo
+
+Phone: +254797394105
+
+Email: chardodhiambo@gmail.com
+
+🔗 GitHub Profile
+
+🔗 LinkedIn
 
 ---
 
@@ -99,4 +117,7 @@ ai-heart-failure/
 ---
 
 **Disclaimer:** This system is a proof-of-concept and should not be used for actual medical diagnosis without professional validation.
+
+❤️ Acknowledgements
+Made with ❤️ by Engineer Chard Odhiambo
 
