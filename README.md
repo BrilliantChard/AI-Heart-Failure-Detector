@@ -4,6 +4,7 @@
 
 The **AI Heart Failure Detection System** is a machine learning-powered web application that predicts the likelihood of heart failure in patients based on clinical records. It is built using **Streamlit**, **Pandas**, **Scikit-learn**, and **Seaborn** for data visualization.
 
+Access the Functional app here: *https://ai-heart-failure-detector-app.streamlit.app/*
 ---
 
 ## 🎯 Features
