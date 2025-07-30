@@ -238,7 +238,7 @@ elif selected == "Contact":
         """
         <div style='font-size:16px;'>
         🔗 <a href='https://github.com/BrilliantChard' target='_blank'>GitHub</a><br>
-        💼 <a href='https://www.linkedin.com/in/chard-odhiambo/' target='_blank'>LinkedIn</a><br>
+        💼 <a href='https://www.linkedin.com/in/chard-odhiambo-57636136a/' target='_blank'>LinkedIn</a><br>
         📞 Phone: <a href="tel:+254797394105">+254797394105</a><br>
         📧 Email: <a href="mailto:chardodhiambo@gmail.com">chardodhiambo@gmail.com</a>
         </div>
@@ -255,6 +255,6 @@ st.markdown("""
 <div class='footer'>
     Made with ❤️ by <strong>Engineer Chard Odhiambo</strong><br>
     🔗 <a href='https://github.com/BrilliantChard' target='_blank'>GitHub</a> |
-    💼 <a href='https://www.linkedin.com/in/chard-odhiambo/' target='_blank'>LinkedIn</a>
+    💼 <a href='https://www.linkedin.com/in/chard-odhiambo-57636136a/' target='_blank'>LinkedIn</a>
 </div>
 """, unsafe_allow_html=True)
